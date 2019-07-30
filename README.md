@@ -25,3 +25,20 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+# Steps to comply with elements
+
+## Create owner service
+1. Use `ng g s shared/owner/owner` to create Owner Service
+2. Fill it with CRUD operations
+    * `getAll ()`
+    * `get (id: number)`
+    * `getIdbyDNI (dni: string)`
+    * `save (owner: any)`
+    * `remove (href: string)`
+
+## Create owner-list Component
+1. Use `ng g c owner-list` to create component
+
+## Create owner-edit Component
+1. Use `ng g c owner-edit` to create component
